@@ -4,7 +4,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from .models import Employee
 from .serializer import EmployeeSerialzier
-# Create your views here.
+
 
 
 class EmployeeDetail(APIView):
